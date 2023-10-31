@@ -1,0 +1,79 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    height: 50px;
+    width: 70px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    box-shadow: 5px 5px 5px lightgray;
+    padding-bottom: 10px;
+    background-color: lightslategray;
+    box
+}
+
+.second-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-nav-child2 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: lightblue;
+}
+
+.first-nav-child2 a:hover{
+    color: black;
+}
+
+#icon{
+    font-size: 25px;
+
+}
+
+#icon:hover{
+    color: red;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: skyblue;
+    cursor:pointer;
+}
+
+select{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom:  4px solid lightblue;
+    border-right:  4px solid lightblue;
+    border-left:  4px solid lightblue;
+    border-top: 0;
+}
+
+.search-input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom:  4px solid lightblue;
+    border-right:  4px solid lightblue;
+    border-left:  4px solid lightblue;
+    border-top: 0;
+    
+
+
+}
